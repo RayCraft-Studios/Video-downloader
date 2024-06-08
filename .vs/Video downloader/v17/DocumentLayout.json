@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Olive\\source\\repos\\Video downloader\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D418E43-9146-40AF-A2D6-B29CCB567BC2}|Video downloader\\Video downloader.csproj|c:\\users\\olive\\source\\repos\\video downloader\\video downloader\\linkreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D418E43-9146-40AF-A2D6-B29CCB567BC2}|Video downloader\\Video downloader.csproj|solutionrelative:video downloader\\linkreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D418E43-9146-40AF-A2D6-B29CCB567BC2}|Video downloader\\Video downloader.csproj|c:\\users\\olive\\source\\repos\\video downloader\\video downloader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D418E43-9146-40AF-A2D6-B29CCB567BC2}|Video downloader\\Video downloader.csproj|solutionrelative:video downloader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D418E43-9146-40AF-A2D6-B29CCB567BC2}|Video downloader\\Video downloader.csproj|c:\\users\\olive\\source\\repos\\video downloader\\video downloader\\ytgrab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D418E43-9146-40AF-A2D6-B29CCB567BC2}|Video downloader\\Video downloader.csproj|solutionrelative:video downloader\\ytgrab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkReader.cs",
+              "DocumentMoniker": "C:\\Users\\Olive\\source\\repos\\Video downloader\\Video downloader\\LinkReader.cs",
+              "RelativeDocumentMoniker": "Video downloader\\LinkReader.cs",
+              "ToolTip": "C:\\Users\\Olive\\source\\repos\\Video downloader\\Video downloader\\LinkReader.cs",
+              "RelativeToolTip": "Video downloader\\LinkReader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T07:35:18.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Olive\\source\\repos\\Video downloader\\Video downloader\\Program.cs",
+              "RelativeDocumentMoniker": "Video downloader\\Program.cs",
+              "ToolTip": "C:\\Users\\Olive\\source\\repos\\Video downloader\\Video downloader\\Program.cs",
+              "RelativeToolTip": "Video downloader\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T05:07:11.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YTGrab.cs",
+              "DocumentMoniker": "C:\\Users\\Olive\\source\\repos\\Video downloader\\Video downloader\\YTGrab.cs",
+              "RelativeDocumentMoniker": "Video downloader\\YTGrab.cs",
+              "ToolTip": "C:\\Users\\Olive\\source\\repos\\Video downloader\\Video downloader\\YTGrab.cs",
+              "RelativeToolTip": "Video downloader\\YTGrab.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T07:33:03.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

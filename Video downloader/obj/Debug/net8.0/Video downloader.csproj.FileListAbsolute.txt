@@ -1,0 +1,30 @@
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\Video downloader.exe
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\Video downloader.deps.json
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\Video downloader.runtimeconfig.json
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\Video downloader.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\Video downloader.pdb
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\AngleSharp.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\NAudio.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\NAudio.Asio.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\NAudio.Core.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\NAudio.Midi.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\NAudio.Wasapi.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\NAudio.WinMM.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\Xamarin.Essentials.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\YoutubeExplode.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\obj\Debug\net8.0\Video downloader.csproj.AssemblyReference.cache
+C:\Users\Olive\source\repos\Video downloader\Video downloader\obj\Debug\net8.0\Video downloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olive\source\repos\Video downloader\Video downloader\obj\Debug\net8.0\Video downloader.AssemblyInfoInputs.cache
+C:\Users\Olive\source\repos\Video downloader\Video downloader\obj\Debug\net8.0\Video downloader.AssemblyInfo.cs
+C:\Users\Olive\source\repos\Video downloader\Video downloader\obj\Debug\net8.0\Video downloader.csproj.CoreCompileInputs.cache
+C:\Users\Olive\source\repos\Video downloader\Video downloader\obj\Debug\net8.0\Video do.BD865181.Up2Date
+C:\Users\Olive\source\repos\Video downloader\Video downloader\obj\Debug\net8.0\Video downloader.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\obj\Debug\net8.0\refint\Video downloader.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\obj\Debug\net8.0\Video downloader.pdb
+C:\Users\Olive\source\repos\Video downloader\Video downloader\obj\Debug\net8.0\Video downloader.genruntimeconfig.cache
+C:\Users\Olive\source\repos\Video downloader\Video downloader\obj\Debug\net8.0\ref\Video downloader.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\DK.Standard.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\DK.WshRuntime.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Olive\source\repos\Video downloader\Video downloader\bin\Debug\net8.0\System.Linq.Async.dll

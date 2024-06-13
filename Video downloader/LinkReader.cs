@@ -1,5 +1,5 @@
-﻿using System;
-using System.IO;
+﻿using IWshRuntimeLibrary;
+using System;
 
 namespace YouTubeDownloader
 {
@@ -15,9 +15,6 @@ namespace YouTubeDownloader
         private static string folderPath = Path.Combine(rootPath, "AutoUploader");
         private static string videoPath = Path.Combine(folderPath, "Downloaded_Videos");
         private static string filePath = Path.Combine(folderPath, "grablist.txt");
-        private static string settingsPath = Path.Combine(folderPath, "settings.txt");
-        private static string tagsPath = Path.Combine(folderPath, "tags.txt");
-        private static string descriptionPath = Path.Combine(folderPath, "description.txt");
 
         private static bool IsChanged = false;
 
@@ -25,9 +22,6 @@ namespace YouTubeDownloader
         public String GetFolder() { return folderPath; }
         public String GetVideoPath() { return videoPath; }
         public String GetFile() { return filePath; }
-        public String GetSettings() { return settingsPath; }
-        public String GetTags() { return tagsPath; }
-        public String GetDescription() { return descriptionPath; }
 
         /*
          Check if data exist
@@ -54,10 +48,10 @@ namespace YouTubeDownloader
             }
 
             // Check if grablist file for video scraping exists
-            if (!File.Exists(filePath))
+            if (!System.IO.File.Exists(filePath))
             {
                 Console.WriteLine($"{filePath} not found. Start creating file.");
-                File.WriteAllText(filePath, "//Paste Links here! One line per Link. Don't make empty lines between.");
+                System.IO.File.WriteAllText(filePath, "//Paste Links here! One line per Link. Don't make empty lines between.");
                 Console.WriteLine($"{filePath} created.");
                 Console.WriteLine("Fill your links in grablist and restart this application.");
                 IsChanged = true;
@@ -75,13 +69,23 @@ namespace YouTubeDownloader
         private void CreateShortcut(string targetDirectory, string shortcutName, string targetPath)
         {
             string shortcutPath = Path.Combine(targetDirectory, shortcutName);
-            string shortcutContent = $@"
-                [InternetShortcut]
-                URL=file:///{targetPath.Replace("\\", "/")}
-                IconIndex=0
-                IconFile={targetPath.Replace("\\", "/")}
-            ";
-            File.WriteAllText(shortcutPath, shortcutContent);
+            // Create WshShell instance
+            WshShell shell = new WshShell();
+
+            // Create a shortcut object
+            IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutPath);
+
+            // Set the target path (the path to the file or folder)
+            shortcut.TargetPath = targetPath;
+
+            // Optional: set other shortcut properties
+            shortcut.WorkingDirectory = System.IO.Path.GetDirectoryName(targetPath);
+            shortcut.WindowStyle = 1; // 1 for normal window
+            shortcut.Description = "Shortcut to " + System.IO.Path.GetFileName(targetPath);
+            shortcut.IconLocation = targetPath; // You can specify a different icon if desired
+
+            // Save the shortcut
+            shortcut.Save();
         }
 
         public void RemoveLink(string link)
@@ -112,10 +116,10 @@ namespace YouTubeDownloader
             }
 
             // Kopiere die temporäre Datei zurück in die ursprüngliche Datei
-            File.Copy(tempDatei, filePath, true);
+            System.IO.File.Copy(tempDatei, filePath, true);
 
             // Lösche die temporäre Datei
-            File.Delete(tempDatei);
+            System.IO.File.Delete(tempDatei);
 
             Console.WriteLine($"{deleted} wurde aus der Liste entfernt.");
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Olive\\source\\repos\\Video downloader\\Video downloader\\Video downloader.csproj": {}
+    "C:\\Users\\Olive\\Desktop\\video\\Video-downloader\\Video downloader\\Video downloader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Olive\\source\\repos\\Video downloader\\Video downloader\\Video downloader.csproj": {
+    "C:\\Users\\Olive\\Desktop\\video\\Video-downloader\\Video downloader\\Video downloader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Olive\\source\\repos\\Video downloader\\Video downloader\\Video downloader.csproj",
+        "projectUniqueName": "C:\\Users\\Olive\\Desktop\\video\\Video-downloader\\Video downloader\\Video downloader.csproj",
         "projectName": "Video downloader",
-        "projectPath": "C:\\Users\\Olive\\source\\repos\\Video downloader\\Video downloader\\Video downloader.csproj",
+        "projectPath": "C:\\Users\\Olive\\Desktop\\video\\Video-downloader\\Video downloader\\Video downloader.csproj",
         "packagesPath": "C:\\Users\\Olive\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Olive\\source\\repos\\Video downloader\\Video downloader\\obj\\",
+        "outputPath": "C:\\Users\\Olive\\Desktop\\video\\Video-downloader\\Video downloader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
